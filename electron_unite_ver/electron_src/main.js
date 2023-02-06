@@ -10,18 +10,17 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    icon:path.join(__static,'../res/icon_win.ico'),
+    icon:path.join(__dirname,'../res/icon_win.ico'),    // 注意，这里的path是一个node模块哦，需要npm安装并且引入使用。最直接的作用就是拼接字符串
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
   })
 
   // and load the index.html of the app.
-  //mainWindow.loadFile('./electron_src/index.html')
+  mainWindow.loadFile('./electron_src/index.html')
 
   // load web url
-  result
-  clientWindow.loadURL(result)
+  //clientWindow.loadURL(result)
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
