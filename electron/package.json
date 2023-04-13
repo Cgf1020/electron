@@ -4,7 +4,7 @@
   "license": "CC0-1.0",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "./electron_src/main.js",
+  "main": "main.js",
   "scripts": {
     "start": "chcp 65001 && electron .",
     "dist": "electron-builder"
@@ -23,24 +23,23 @@
     "asar": false,
     "appId": "com.TalkClass.CloudClass",
     "files": [
-      "./electron_src/**",
-      "./res/static/**"
+
     ],
     "nsis": {
       "oneClick": false,
       "allowElevation": true,
       "allowToChangeInstallationDirectory": true,
-      "installerIcon": "./res/static/icon_win.ico",
-      "uninstallerIcon": "./res/static/icon_win.ico",
-      "installerHeaderIcon": "./res/static/icon_win.ico",
+      "installerIcon": "../res/static/icon_win.ico",
+      "uninstallerIcon": "../res/static/icon_win.ico",
+      "installerHeaderIcon": "../res/static/icon_win.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "addon",
       "unicode": true,
-      "include": "./res/pack/installer.nsh"
+      "include": "../res/pack/installer.nsh"
     },
     "win": {
-      "icon": "./res/static/icon_win.ico",
+      "icon": "../res/static/icon_win.ico",
       "target": [
         {
           "target": "nsis",
@@ -51,7 +50,7 @@
       ],
       "extraFiles": [
         {
-          "from": "./res/common/win_tools/",
+          "from": "../res/common/win_tools/",
           "to": ".",
           "filter": [
             "**/*"
@@ -61,8 +60,6 @@
     }
   },
   "dependencies": {
-    "node-addon-api": "^5.0.0",
-    "node-gyp": "^9.3.1"
   },
   "devDependencies": {
     "electron": "^23.1.1",

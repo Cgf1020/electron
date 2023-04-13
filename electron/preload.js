@@ -16,13 +16,9 @@
 */
 
 /*=========================================头文件==============================================*/
-const { contextBridge } = require('electron')       
+const { contextBridge } = require('electron')    
 
-const myrender = require('./ipc/ipc_render.js')            //预加载 ipc_render模块
-
-
-
-
+const myrender = require('./ipc/ipc_render.js')     //渲染进程 与  主进程的 交互  （IPC）
 
 /*=========================================code实例==============================================*/
 
@@ -40,7 +36,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
 
 
 
-// //test 1：向 渲染 进程 暴露 他可以调用的函数（功能）
+//test 1：向 渲染 进程 暴露 他可以调用的函数（功能）
 
 // const { contextBridge, ipcRenderer } = require('electron')
 
@@ -50,8 +46,6 @@ contextBridge.exposeInMainWorld('electronAPI', {
 //   electron: () => process.versions.electron,
 //   // 能暴露的不仅仅是函数，我们还可以暴露变量
 // })
-
-
 
 
 

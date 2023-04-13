@@ -5,7 +5,7 @@
 渲染进程 接受 和 发送 主进程的消息
 */
 
-const {ipcRenderer} = require('electron')
+const { ipcRenderer } = require('electron')
 
 
 
@@ -24,6 +24,7 @@ class MyRender{
 
     setTitle(arg)
     {
+        console.log('设置标题', arg)
         ipcRenderer.send('setTitle', arg)
     }
 

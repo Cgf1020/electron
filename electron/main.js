@@ -1,8 +1,9 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
+
 const path = require('path')
 
-const ipc = require('./ipc_main.js')     //渲染进程 与  主进程的 交互  （IPC）
+const ipc = require('./ipc/ipc_main.js')     //渲染进程 与  主进程的 交互  （IPC）
 
 
 
@@ -21,15 +22,16 @@ function createWindow () {
     height: 600,
     //backgroundColor: '#02243B', //窗口背景
     //frame: false,   //创建的窗口是否带边框
-    icon:path.join(__dirname,'../res/icon_win.ico'),    // 注意，这里的path是一个node模块哦，需要npm安装并且引入使用。最直接的作用就是拼接字符串
+    icon:path.join(__dirname,'../res/static/icon_win.ico'),    // 注意，这里的path是一个node模块哦，需要npm安装并且引入使用。最直接的作用就是拼接字符串
     webPreferences: {
-      //contextIsolation: false,  //上下文隔离
+      // contextIsolation: false,  //上下文隔离
+      // nodeIntegration: true,
       preload: path.join(__dirname, 'preload.js')
     }
   })
   
     // and load the index.html of the app.
-  mainWindow.loadFile('./electron_src/index.html')
+  mainWindow.loadFile('./index.html')
 
     // load web url
     // let load_retry = 0;
