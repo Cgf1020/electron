@@ -7,7 +7,7 @@
   "main": "./electron_src/main.js",
   "scripts": {
     "start": "chcp 65001 && electron .",
-    "dist": "electron-builder" 
+    "dist": "electron-builder"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "homepage": "",
@@ -19,28 +19,42 @@
     "demo"
   ],
   "build": {
-    "productName": "addon",
+    "productName": "class",
     "asar": false,
     "appId": "com.TalkClass.CloudClass",
+    "files": [
+      "./electron_src/**",
+      "./res/static/**"
+    ],
     "nsis": {
       "oneClick": false,
       "allowElevation": true,
       "allowToChangeInstallationDirectory": true,
-      "installerIcon": "./res/icon/icon_win.ico",
-      "uninstallerIcon": "./res/icon/icon_win.ico",
-      "installerHeaderIcon": "./res/icon/icon_win.ico",
+      "installerIcon": "./res/static/icon_win.ico",
+      "uninstallerIcon": "./res/static/icon_win.ico",
+      "installerHeaderIcon": "./res/static/icon_win.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "addon",
-      "unicode": true
+      "unicode": true,
+      "include": "./res/pack/installer.nsh"
     },
     "win": {
-      "icon": "./res/icon/icon_win.ico", 
+      "icon": "./res/static/icon_win.ico",
       "target": [
         {
-          "target": "zip",
+          "target": "nsis",
           "arch": [
             "ia32"
+          ]
+        }
+      ],
+      "extraFiles": [
+        {
+          "from": "./res/common/win_tools/",
+          "to": ".",
+          "filter": [
+            "**/*"
           ]
         }
       ]
@@ -51,7 +65,7 @@
     "node-gyp": "^9.3.1"
   },
   "devDependencies": {
-    "electron": "^18.0.3",
+    "electron": "^23.1.1",
     "electron-builder": "^23.6.0"
   }
 }

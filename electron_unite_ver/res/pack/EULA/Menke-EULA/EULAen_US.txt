@@ -1,0 +1,31 @@
+Thank you for purchasing Cloud Class Network  software product. Before using this product, please carefully read through the terms and conditions of the End User License Agreement (EULA) below.
+
+   This End User License Agreement (here forth known as "EULA") is between you and Sino-Rational Technology Inc. (here forth known as "SR Technology") with regards to  Cloud Class Network  software product legal agreement. This "Software Product" not only includes the  Cloud Class Network  software, hardware encryption device, related documentations, promotional materials, etc., but also includes any form of upgrade software and additional material. You must agree to the terms and conditions of this agreement and other special conditions or additions before having the right to use it. By installing and using the software, you are confirming your acceptance of the software and agreeing to be become bound by the terms and conditions of this agreement.
+
+End User Licensing Agreement Granting of License 
+  
+This software product is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. You are only permitted to install and use the software. You can duplicate the contents of this CD for backup purposes only. 
+
+  The limitations or exclusions of warranties, remedies or liability contained in this EULA shall apply to you only to the extent such limitations or exclusions are permitted under the laws of the jurisdiction where you are located.
+
+Restricted Use
+
+  Apart from the actions permitted by the "Granting of License" clause above, you may not copy, rent, distribute or sell it in any other kind of transactions. You may not resell, rent or give it away for a fee. You may not reverse engineer, decompile, or disassemble the software product in any way. This EULA does not give you any rights to the use of SR Technology and  Cloud Class Network  trademarks.
+
+Limited Warranty
+
+  SR Technology warrants to you that for a period of ninety (90) days from the date of purchase, as evidenced by a copy of the purchase, this product CD-ROM media and other related materials on which this software is furnished (if any) will be free of defects in materials and workmanship under normal use, however if it is proven that the software is in some ways defective, SR Technology would replace the product for free. The support provided by SR Technology would be as described in the printer materials, SR Technology's technical support engineers would try their best within industrial permitted boundaries to resolve any problems.
+
+Limitation of Liability 
+
+  The company would provide you (only you) with this limited warranty on the product as stated above. To the extent not prohibited by law, in no event will SR technology or it¡¯s licensors be liable for any lost revenue, profit or data, or for special, Indirect, consequential, Incidental or punitive damages, However caused regardless of the theory of liability, Arising out of or related to the use of ir inability to use software, Even if SR Technology has beed advised of the possibility of such damages. In no way, would SR Technology be responsible for any promises made by their distributors, agents or other third parties, either verbally, through publications, or by other means of notifications with their users.    
+
+Copyright 
+
+  All the software items, this includes the software itself, hardware encryption device, documentations and any other additional materials included in this software product, and any authorized copies that you make are the intellectual copyright property of and are owned by SR Technology Inc. 
+
+Termination 
+ 
+ Without prejudice to any other rights, SR Technology may terminate this EULA or your rights under this EULA at any time if you fail to comply with the terms and conditions of this EULA. Upon termination of your rights under this EULA for any reason, or upon termination of the EULA itself, you must destroy all copies of the Software Product and all of its component parts in your possession (including all component parts, the media and printed materials, any prior versions, and this EULA). The terms of this paragraph shall survive any termination of this EULA. Failure with comply with this requirement within a reasonable time period, SR Technology would reserve the right to pursue legal action in accordance to China's intellectual property laws and other related legal provisions.
+
+This EULA will be governed by the laws of the People's Republic of China. SR Technology reserve final rights and discretion in all decisions on this EULA. If you should have any questions on this EULA, please contact SR Technology. 

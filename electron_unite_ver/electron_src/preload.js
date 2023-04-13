@@ -18,7 +18,7 @@
 /*=========================================头文件==============================================*/
 const { contextBridge } = require('electron')       
 
-const myrender = require('./ipc_render')            //预加载 ipc_render模块
+const myrender = require('./ipc/ipc_render.js')            //预加载 ipc_render模块
 
 
 
